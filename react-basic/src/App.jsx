@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
+import Background from './components/Background';
+import Forground from './components/Forground';
 
 function App() {
+
   return (
-    <div>App</div>
+    <>
+      <div className="relative w-full h-screen bg-zinc-800">
+        <Background/>
+        <Forground/>
+      </div>
+    </>
   )
 }
 
